@@ -1,4 +1,11 @@
-body {background-color:tan;}
-h1{color:green;}
-
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
+.maindiv {
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+}
 
