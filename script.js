@@ -22,7 +22,7 @@ function compute()
         //Determine the correct year
         var year = new Date().getFullYear()+parseInt(years);
         //Calculate the amount (rounded to 2 decimal cyphers)
-        var amount = (parseFloat(principal)+ parseFloat(interest)).toFixed(2)
+        var amount =  parseFloat(interest).toFixed(2)
         //Set the message to be displayed
         var p = document.getElementById("result")
         p.innerHTML = "If you deposit <mark>"  + principal +"</mark>,\<br/\>at an interest rate of <mark>"+rate+"%</mark>\<br\>You will receive an amount of <mark>"+amount+"</mark>,\<br\>in the year <mark>"+year+"</mark>\<br\>"
