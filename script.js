@@ -13,7 +13,7 @@ function compute()
     //Returns an error if amount inserted is negative or not inserted
     if (parseFloat(principal) <= 0 || principal == ""){
         alert("Enter a positive number")
-        principal.focus()
+        document.getElementById("principal").focus()
     }
     else{
         var rate = document.getElementById("rate").value;
